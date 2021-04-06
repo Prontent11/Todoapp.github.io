@@ -1,0 +1,50 @@
+
+.container
+{
+  display: grid;
+  padding: 5% 25%;
+  grid-template-columns: auto auto ;
+
+  
+}
+.grid-item{
+font-size: 25px;
+}
+#input{
+  padding: 10px;
+
+  outline-style: none;
+  border: none;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+ul{
+  padding-top: 20px;
+  font-size: 25px;
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+  grid-column: 1/3;
+}
+h1{
+  margin: auto;
+  /* grid-row: 1/1; */
+  grid-column: 1/3;
+  margin-bottom: 70px;
+}
+.buttoncolor{
+  box-shadow: 2px 2px 2px 2px #ccc;
+  background-color: rgb(196, 238, 248);
+  outline: none;cursor: pointer
+  
+  
+}
+/* rgb(1, 11, 22) */
+li:nth-child(odd) {
+  background-color: rgb(196, 238, 248);
+  box-shadow: 2px 2px 2px 2px #ccc;
+
+}
+li{
+  /* margin-top: 10px; */
+  margin-left: 0;
+}
